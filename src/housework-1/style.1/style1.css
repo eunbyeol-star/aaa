@@ -14,14 +14,10 @@
   margin-left: 30px;
 }
 
-.ib {
-  display: inline-block;
-  width: 80px;
-  height: 70px;
-}
-
 #highlight {
   color: rgb(55, 34, 123);
+  border-left: 5px solid blueviolet;
+  padding-left: 5px;
 }
 
 .cat {
