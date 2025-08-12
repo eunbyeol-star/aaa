@@ -1,7 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Dokdo&display=swap');
 *,
 ::before,
 ::after {
   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Dokdo', system-ui;
+  font-weight: 400;
+  font-style: normal;
+  background-color: aquamarine;
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 800px) {
+  body {
+    background-color: oklch(0.7459 0.1845 20.05);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: white;
+  }
 }
 
 .aling-center {
@@ -44,4 +66,16 @@ img {
   width: 400px;
   height: 200px;
   aspect-ratio: 1 / 1;
+}
+
+.weight {
+  font-weight: 700;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.line-through {
+  text-decoration: line-through;
 }

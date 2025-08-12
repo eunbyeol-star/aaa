@@ -1,0 +1,99 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+.container {
+  background-color: oklch(0.8459 0.2166 184.87 / 30.53%);
+  padding-inline: 20px;
+  margin-bottom: 40px;
+}
+
+.item {
+  border: 2px solid oklch(0.6871 0.1944 70.52);
+  background-color: oklch(0.9282 0.0957 141.46);
+  padding: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.dir {
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.h300 {
+  height: 300px;
+}
+
+.ac {
+  align-content: start;
+}
+
+.ai {
+  align-items: baseline;
+}
+
+.as-1 {
+  align-self: start;
+}
+.as-2 {
+  align-self: center;
+}
+.as-3 {
+  align-self: end;
+}
+.as-4 {
+  align-self: stretch;
+}
+.as-5 {
+  align-self: baseline;
+}
+
+.gap {
+  gap: 10px;
+}
+
+.jc {
+  justify-content: space-evenly;
+}
+
+.green {
+  background-color: oklch(0.692 0.0957 305.58);
+}
+
+.grow-1 {
+  flex-grow: 1;
+}
+
+.grow-2 {
+  flex-grow: 2;
+}
+
+.shrink-1 {
+  width: 200px;
+  flex-shrink: 1;
+}
+
+.shrink-2 {
+  width: 200px;
+  flex-shrink: 2;
+}
+
+.basis-1 {
+  flex-basis: 300px;
+}
+.basis-2 {
+  flex-basis: 0;
+}
