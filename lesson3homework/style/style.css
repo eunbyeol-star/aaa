@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  max-width: 1200px;
+}
+
+.container {
+  background-color: oklch(95% 0.05 150);
+  font-size: 18px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #a0a0a0;
+  margin-bottom: 20px;
+}
+
+.item {
+  background-color: oklch(0.4606 0.2314 289.69);
+  padding: 10px;
+}
