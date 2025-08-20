@@ -77,6 +77,9 @@ h2 {
 :root {
   --primary-color: okich(0.8.2 50);
   --secondary-color: oklch(0.692 0.2856 147.81);
+  --triary-color: oklch(0.832 0.3356 147.81);
+  --quaternary-colorklch: (0.102 0.336 747.1);
+  --title-fs: 24px;
 }
 
 h4 {
@@ -85,4 +88,10 @@ h4 {
 
 p {
   color: var(--secondary-color);
+}
+.orange {
+  color: var(--triary-color);
+}
+.span {
+  color: var(--quaternary-color);
 }
